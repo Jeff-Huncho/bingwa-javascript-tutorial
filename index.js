@@ -23,6 +23,16 @@ var hours = new DAte() .getHours()
     if (hours<12) {
 		document.write("Good Morning!!! <br/>");
 	} else 
-	    document.write("Good afternoon!!! <br />") {
+	    document.write("Good afternoon!!! <br />") 
 		
-	}
+	var one = prompt ("ENter the first number");
+    var two = prompt ("Enter the second number");
+	 one = parseInt (one);
+	 two = parseInt (two);
+	 if (one==two)
+	 document.write (one + "is equal to" + two + ".")
+	  else if (one<two) 
+	  document.write (one + "is less than" + two + ".")
+		else 
+		document.write (one +"is greater than" + two + ".") 
+	 }
