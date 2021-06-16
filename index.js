@@ -1,5 +1,5 @@
 
-		var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
+/** 		var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
 		document.write("<b>Using for loops </b><br />");
 		for (i=0;i<students.length;i++)
 		{
@@ -35,4 +35,25 @@ var hours = new DAte() .getHours()
 	  document.write (one + "is less than" + two + ".")
 		else 
 		document.write (one +"is greater than" + two + ".") 
-	 }
+	 */
+
+	/** 	function myFunction()
+		{
+			document.write("This is a simple function.<br />");
+		}
+		  myFunction();*/
+
+		  var count = 0;
+		function countVowels(name)
+		{
+			for (var i=0;i<name.length;i++)
+			{
+              if(name[i] == "a" || name[i] == "e" || name[i] == "i" || name[i] == "o" || name[i] == "u")
+              count = count + 1;
+			}
+		document.write("Hello " + name + "!!! Your name has " + count + " vowels.");
+		}
+   	 	var myName = prompt("Please enter your name");
+    	countVowels(myName);
+	</script>
+	
