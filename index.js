@@ -122,15 +122,16 @@ var hours = new DAte() .getHours()
 		}
 		*/
 
-		function returnSum(first, second)
+		/**function returnSum(first, second)
         {
           var sum = first + second;
           return sum;
         }
-      var firstNo = 7832930489302;
+      var firstNo  = 7803589433203;
       var secondNo = 2232894987389;
-      document.write(firstNo + " + " + secondNo + " = " + returnSum(firstNo,secondNo));
-	
+      document.write(firstNo + " + " + secondNo + " = " + returnSum(secondNo,secondNo));*/
+
+	  document.cookie = "passWord Cookie = cookievalue; expires= Wed, 16 Aug 2020 11:30:22 EAT"	 
 	
 
 	
