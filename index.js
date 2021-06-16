@@ -5,3 +5,24 @@
 		{
 		document.write(students[i] + "<br />");
 		}
+
+
+Document.write ("<b>using do...while loops</b></br>")
+    do{
+	document.write(i+"<br />")
+	    i=i+2;
+      }while (i<20)
+
+var age = prompt("Please enter your age");
+	if(age>=18)
+		document.write("You are an adult <br />");
+		if(age<18)
+		document.write("You are NOT an adult <br />");
+
+var hours = new DAte() .getHours()
+    if (hours<12) {
+		document.write("Good Morning!!! <br/>");
+	} else 
+	    document.write("Good afternoon!!! <br />") {
+		
+	}
