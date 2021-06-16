@@ -105,18 +105,32 @@ var hours = new DAte() .getHours()
 
 
 
-		function myFunction()
-		{
+		/**function myFunction(){
 
-			prompt("do you like functions?")
-if (yes) {
-	document.write("Good Job")
+			return confirm("do you like functions?")
+			//return 0;
 
-	if (no) {
-		document.write("Try other learning methods")
-	}
-}
 		
-myFunction();
-	}
+		}
+
+		var answer = myFunction();
+
+		if (answer) {
+			document.write("Good Job")
+		} else {
+			document.write("Try other learning methods")
+		}
+		*/
+
+		function returnSum(first, second)
+        {
+          var sum = first + second;
+          return sum;
+        }
+      var firstNo = 7832930489302;
+      var secondNo = 2232894987389;
+      document.write(firstNo + " + " + secondNo + " = " + returnSum(firstNo,secondNo));
+	
+	
+
 	
