@@ -41,7 +41,7 @@ var hours = new DAte() .getHours()
 		{
 			document.write("This is a simple function.<br />");
 		}
-		  myFunction();*/
+		  myFunction();
 
 		  var count = 0;
 		function countConsonants(name)
@@ -51,9 +51,72 @@ var hours = new DAte() .getHours()
               if(name[i] == "b" || name[i] == "c" || name[i] == "d" || name[i] == "k" || name[i] == "l" || name[i] == "m" || name[i] == "n" || name[i] == "p" || name[i] == "q" || name[i] == "s" || name[i] == "t" || name[i] == "v" || name[i] == "x" || name[i] == "y" || name[i] == "z" || name[i] == "h" || name[i] == "r" || name[i] == "w" || name[i] == "y")
               count = count + 1;
 			}
-		document.write("Hello " + name + "!!! Your name has " + count + " vowels.");
+		document.write("Hello " + name + "!!! Your name has " + count + " Consonants.");
 		}
-   	 	var myName = prompt("Please enter your name");
-    	countVowels(myName);
+   	 	var myName = prompt("Please enter your name");*/
+    	
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		function myFunction()
+		{
+
+			prompt("do you like functions?")
+if (yes) {
+	document.write("Good Job")
+
+	if (no) {
+		document.write("Try other learning methods")
+	}
+}
+		
+myFunction();
+	}
 	
