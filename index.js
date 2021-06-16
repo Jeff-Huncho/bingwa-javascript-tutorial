@@ -19,7 +19,11 @@ function getCookie(name) {
 }
 
 setCookie("user_email","bobthegreat@gmail.com",30); //set "user_email" cookie, expires in 30 days
-var userEmail=getCookie("user_email");//"bobthegreat@gmail.com"*/
+var userEmail=getCookie("user_email");//"bobthegreat@gmail.com"
 
 var text = document.getElementById ("one") .innerHTML;
 alert("The frst heading is " + text)
+**/
+	var paragraphs = document.getElementsByTagName("p");
+    alert("Content in the second paragraph is " + paragraphs[1].innerHTML);
+    document.getElementById("second").innerHTML = "The orginal message is changed.";
