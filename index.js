@@ -129,9 +129,13 @@ var hours = new DAte() .getHours()
         }
       var firstNo  = 7803589433203;
       var secondNo = 2232894987389;
-      document.write(firstNo + " + " + secondNo + " = " + returnSum(secondNo,secondNo));*/
+      document.write(firstNwo + " + " + secondNo + " = " + returnSum(secondNo,secondNo));*/
 
-	  document.cookie = "passWord Cookie = cookievalue; expires= Wed, 16 Aug 2020 11:30:22 EAT"	 
-	
+	  document.cookie = "passWordCookie = cookievalue"	 
+
+	  localStorage.setItem('user', "passWord Cookie = cookievalue; expires= Wed, 16 Aug 2020 11:30:22 EAT"	 
+	  )
+
+		
 
 	
