@@ -1,4 +1,4 @@
-var course = part3;
+var course = 3;
 
     if (course == 1) {
     alert ("You have a long way to go keep pushing.")
