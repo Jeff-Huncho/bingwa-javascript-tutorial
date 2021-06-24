@@ -15,11 +15,13 @@ header {
 h1 {
   font-size: 50px;
   margin: 0 0 16px 0;
+  font-family: sans-serif;
 }
 h2 {
   font-weight: 300;
   font-size: 32px;
   margin: 0 0 16px 0;
+  font-family: sans-serif;
 }
 .container {
   margin: 0 auto;
@@ -52,6 +54,7 @@ section {
     width: 32%;
     display: inline-block;
     font-size: 16px;
+    
 }
 .feature img{
     width: 40%;
@@ -59,7 +62,12 @@ section {
 p {
   text-align: center;
   font-size: 32px;
+  font-family: Economica;
 }
+/**div a{
+  font-family: monospace;
+  font-size: larger;
+}**/
 .quote {
   background: #549da0;
   color: #ffffff;
@@ -72,7 +80,7 @@ blockquote{
 }
 blockquote p{
     margin: 0 0 5px 0;
-    font-size: 30px;
+    font-size: 40px;
 }
 blockquote cite:before{
     content: '-';
